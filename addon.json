@@ -1,0 +1,6 @@
+{
+    "title" : "GM Tatooine",
+    "type" : "map",
+    "tags" : ["scenic", "realism"],
+    "ignore" : ["*.brs"]
+}
