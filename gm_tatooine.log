@@ -4522,3 +4522,1744 @@ Level flags = 0
 Total triangle count: 2348
 Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
 7 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (306685 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 81 texinfos to 53
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+1028 faces
+10105 square feet [1455224.25 square inches]
+5 Displacements
+160 Square Feet [23110.55 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0112 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 56/16384         672/196608   ( 0.3%) 
+brushsides             507/163840       4056/1310720  ( 0.3%) 
+planes                 554/65536       11080/1310720  ( 0.8%) 
+vertexes              1327/65536       15924/786432   ( 2.0%) 
+nodes                  116/65536        3712/2097152  ( 0.2%) 
+texinfos                53/12288        3816/884736   ( 0.4%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts            1445/0           28900/0        ( 0.0%) 
+disp_tris             2560/0            5120/0        ( 0.0%) 
+disp_lmsamples       55768/0           55768/0        ( 0.0%) 
+faces                 1028/65536       57568/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              200/65536       11200/3670016  ( 0.3%) 
+leaves                 119/65536        3808/2097152  ( 0.2%) 
+leaffaces             2133/65536        4266/131072   ( 3.3%) 
+leafbrushes            101/65536         202/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5459/512000      21836/2048000  ( 1.1%) 
+edges                 2989/256000      11956/1024000  ( 1.2%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             81/32768         810/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1419/65536        2838/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2685756/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1069/393216   ( 0.3%) 
+LDR ambient table      119/65536         476/262144   ( 0.2%) 
+HDR ambient table      119/65536         476/262144   ( 0.2%) 
+LDR leaf ambient       566/65536       15848/1835008  ( 0.9%) 
+HDR leaf ambient       119/65536        3332/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      306685/4194304  ( 7.3%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2635
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (322021 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 111 texinfos to 76
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+973 faces
+10168 square feet [1464286.75 square inches]
+6 Displacements
+210 Square Feet [30278.55 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0100 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 61/16384         732/196608   ( 0.4%) 
+brushsides             537/163840       4296/1310720  ( 0.3%) 
+planes                 578/65536       11560/1310720  ( 0.9%) 
+vertexes              1272/65536       15264/786432   ( 1.9%) 
+nodes                  154/65536        4928/2097152  ( 0.2%) 
+texinfos                76/12288        5472/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1526/0           30520/0        ( 0.0%) 
+disp_tris             2688/0            5376/0        ( 0.0%) 
+disp_lmsamples       59337/0           59337/0        ( 0.0%) 
+faces                  973/65536       54488/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              225/65536       12600/3670016  ( 0.3%) 
+leaves                 157/65536        5024/2097152  ( 0.2%) 
+leaffaces             1390/65536        2780/131072   ( 2.1%) 
+leafbrushes            136/65536         272/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5295/512000      21180/2048000  ( 1.0%) 
+edges                 2898/256000      11592/1024000  ( 1.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             65/32768         650/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1215/65536        2430/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2325132/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1069/393216   ( 0.3%) 
+LDR ambient table      157/65536         628/262144   ( 0.2%) 
+HDR ambient table      157/65536         628/262144   ( 0.2%) 
+LDR leaf ambient       601/65536       16828/1835008  ( 0.9%) 
+HDR leaf ambient       157/65536        4396/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      322021/4194304  ( 7.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2481
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (336485 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 116 texinfos to 75
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+894 faces
+1 degenerate faces
+10070 square feet [1450186.25 square inches]
+7 Displacements
+302 Square Feet [43590.55 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0098 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 61/16384         732/196608   ( 0.4%) 
+brushsides             537/163840       4296/1310720  ( 0.3%) 
+planes                 578/65536       11560/1310720  ( 0.9%) 
+vertexes              1233/65536       14796/786432   ( 1.9%) 
+nodes                   65/65536        2080/2097152  ( 0.1%) 
+texinfos                75/12288        5400/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            1607/0           32140/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_lmsamples       65869/0           65869/0        ( 0.0%) 
+faces                  894/65536       50064/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              209/65536       11704/3670016  ( 0.3%) 
+leaves                  68/65536        2176/2097152  ( 0.1%) 
+leaffaces             1182/65536        2364/131072   ( 1.8%) 
+leafbrushes             78/65536         156/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4792/512000      19168/2048000  ( 0.9%) 
+edges                 2692/256000      10768/1024000  ( 1.1%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             55/32768         550/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           954/65536        1908/131072   ( 1.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2285592/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1401/393216   ( 0.4%) 
+LDR ambient table       68/65536         272/262144   ( 0.1%) 
+HDR ambient table       68/65536         272/262144   ( 0.1%) 
+LDR leaf ambient       506/65536       14168/1835008  ( 0.8%) 
+HDR leaf ambient        68/65536        1904/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      336485/4194304  ( 8.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2204
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 28 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (336677 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 116 texinfos to 75
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+875 faces
+10046 square feet [1446672.13 square inches]
+7 Displacements
+302 Square Feet [43590.55 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0134 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 61/16384         732/196608   ( 0.4%) 
+brushsides             531/163840       4248/1310720  ( 0.3%) 
+planes                 560/65536       11200/1310720  ( 0.9%) 
+vertexes              1194/65536       14328/786432   ( 1.8%) 
+nodes                   65/65536        2080/2097152  ( 0.1%) 
+texinfos                75/12288        5400/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            1607/0           32140/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_lmsamples       65869/0           65869/0        ( 0.0%) 
+faces                  875/65536       49000/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              210/65536       11760/3670016  ( 0.3%) 
+leaves                  68/65536        2176/2097152  ( 0.1%) 
+leaffaces             1165/65536        2330/131072   ( 1.8%) 
+leafbrushes             77/65536         154/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4737/512000      18948/2048000  ( 0.9%) 
+edges                 2654/256000      10616/1024000  ( 1.0%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/32768         450/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           903/65536        1806/131072   ( 1.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2243736/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1401/393216   ( 0.4%) 
+LDR ambient table       68/65536         272/262144   ( 0.1%) 
+HDR ambient table       68/65536         272/262144   ( 0.1%) 
+LDR leaf ambient       506/65536       14168/1835008  ( 0.8%) 
+HDR leaf ambient        68/65536        1904/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      336677/4194304  ( 8.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2179
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (440653 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 126 texinfos to 76
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+908 faces
+10034 square feet [1444955.00 square inches]
+14 Displacements
+624 Square Feet [89962.36 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0100 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 64/16384         768/196608   ( 0.4%) 
+brushsides             539/163840       4312/1310720  ( 0.3%) 
+planes                 566/65536       11320/1310720  ( 0.9%) 
+vertexes              1294/65536       15528/786432   ( 2.0%) 
+nodes                   68/65536        2176/2097152  ( 0.1%) 
+texinfos                76/12288        5472/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            2174/0           43480/0        ( 0.0%) 
+disp_tris             3712/0            7424/0        ( 0.0%) 
+disp_lmsamples       83693/0           83693/0        ( 0.0%) 
+faces                  908/65536       50848/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              221/65536       12376/3670016  ( 0.3%) 
+leaves                  71/65536        2272/2097152  ( 0.1%) 
+leaffaces             1170/65536        2340/131072   ( 1.8%) 
+leafbrushes             76/65536         152/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5003/512000      20012/2048000  ( 1.0%) 
+edges                 2793/256000      11172/1024000  ( 1.1%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             60/32768         600/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1128/65536        2256/131072   ( 1.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2284472/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1405/393216   ( 0.4%) 
+LDR ambient table       71/65536         284/262144   ( 0.1%) 
+HDR ambient table       71/65536         284/262144   ( 0.1%) 
+LDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+HDR leaf ambient        71/65536        1988/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      440653/4194304  (10.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2331
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (411317 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 120 texinfos to 72
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+941 faces
+9556 square feet [1376093.00 square inches]
+12 Displacements
+486 Square Feet [70122.37 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0138 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 63/16384         756/196608   ( 0.4%) 
+brushsides             533/163840       4264/1310720  ( 0.3%) 
+planes                 564/65536       11280/1310720  ( 0.9%) 
+vertexes              1358/65536       16296/786432   ( 2.1%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos               12/0            2112/0        ( 0.0%) 
+disp_verts            2012/0           40240/0        ( 0.0%) 
+disp_tris             3456/0            6912/0        ( 0.0%) 
+disp_lmsamples       73481/0           73481/0        ( 0.0%) 
+faces                  941/65536       52696/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              214/65536       11984/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces              957/65536        1914/131072   ( 1.5%) 
+leafbrushes             68/65536         136/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5186/512000      20744/2048000  ( 1.0%) 
+edges                 2903/256000      11612/1024000  ( 1.1%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             71/32768         710/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1296/65536        2592/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2324944/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1405/393216   ( 0.4%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       515/65536       14420/1835008  ( 0.8%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      411317/4194304  ( 9.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2480
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (384245 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 126 texinfos to 77
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+981 faces
+9619 square feet [1385225.38 square inches]
+7 Displacements
+381 Square Feet [54921.84 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0152 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 65/16384         780/196608   ( 0.4%) 
+brushsides             555/163840       4440/1310720  ( 0.3%) 
+planes                 590/65536       11800/1310720  ( 0.9%) 
+vertexes              1428/65536       17136/786432   ( 2.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                77/12288        5544/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            1815/0           36300/0        ( 0.0%) 
+disp_tris             3200/0            6400/0        ( 0.0%) 
+disp_lmsamples       72545/0           72545/0        ( 0.0%) 
+faces                  981/65536       54936/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              222/65536       12432/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces             1002/65536        2004/131072   ( 1.5%) 
+leafbrushes             70/65536         140/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5463/512000      21852/2048000  ( 1.1%) 
+edges                 3064/256000      12256/1024000  ( 1.2%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             77/32768         770/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1389/65536        2778/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2367188/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1404/393216   ( 0.4%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       508/65536       14224/1835008  ( 0.8%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      384245/4194304  ( 9.2%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2641
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (384245 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 126 texinfos to 77
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+981 faces
+9619 square feet [1385225.38 square inches]
+7 Displacements
+381 Square Feet [54921.84 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0180 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 65/16384         780/196608   ( 0.4%) 
+brushsides             555/163840       4440/1310720  ( 0.3%) 
+planes                 590/65536       11800/1310720  ( 0.9%) 
+vertexes              1428/65536       17136/786432   ( 2.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                77/12288        5544/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            1815/0           36300/0        ( 0.0%) 
+disp_tris             3200/0            6400/0        ( 0.0%) 
+disp_lmsamples       72545/0           72545/0        ( 0.0%) 
+faces                  981/65536       54936/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              222/65536       12432/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces             1002/65536        2004/131072   ( 1.5%) 
+leafbrushes             70/65536         140/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5463/512000      21852/2048000  ( 1.1%) 
+edges                 3064/256000      12256/1024000  ( 1.2%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             77/32768         770/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1389/65536        2778/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2367188/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1404/393216   ( 0.4%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       512/65536       14336/1835008  ( 0.8%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      384245/4194304  ( 9.2%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2641
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (384245 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 126 texinfos to 77
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+981 faces
+9619 square feet [1385225.38 square inches]
+7 Displacements
+381 Square Feet [54921.84 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0130 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 65/16384         780/196608   ( 0.4%) 
+brushsides             555/163840       4440/1310720  ( 0.3%) 
+planes                 590/65536       11800/1310720  ( 0.9%) 
+vertexes              1428/65536       17136/786432   ( 2.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                77/12288        5544/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            1815/0           36300/0        ( 0.0%) 
+disp_tris             3200/0            6400/0        ( 0.0%) 
+disp_lmsamples       72545/0           72545/0        ( 0.0%) 
+faces                  981/65536       54936/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              222/65536       12432/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces             1002/65536        2004/131072   ( 1.5%) 
+leafbrushes             70/65536         140/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5463/512000      21852/2048000  ( 1.1%) 
+edges                 3064/256000      12256/1024000  ( 1.2%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             77/32768         770/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1389/65536        2778/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2371124/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1404/393216   ( 0.4%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       512/65536       14336/1835008  ( 0.8%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      384245/4194304  ( 9.2%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2641
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (384213 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 123 texinfos to 73
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+981 faces
+9612 square feet [1384265.38 square inches]
+7 Displacements
+381 Square Feet [54921.84 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0103 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 65/16384         780/196608   ( 0.4%) 
+brushsides             555/163840       4440/1310720  ( 0.3%) 
+planes                 590/65536       11800/1310720  ( 0.9%) 
+vertexes              1426/65536       17112/786432   ( 2.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                73/12288        5256/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            1815/0           36300/0        ( 0.0%) 
+disp_tris             3200/0            6400/0        ( 0.0%) 
+disp_lmsamples       72545/0           72545/0        ( 0.0%) 
+faces                  981/65536       54936/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              222/65536       12432/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces             1002/65536        2004/131072   ( 1.5%) 
+leafbrushes             70/65536         140/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5455/512000      21820/2048000  ( 1.1%) 
+edges                 3060/256000      12240/1024000  ( 1.2%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             75/32768         750/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1365/65536        2730/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2371420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1404/393216   ( 0.4%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       512/65536       14336/1835008  ( 0.8%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      384213/4194304  ( 9.2%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2633
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+7 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 42 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (733837 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 152 texinfos to 84
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+1157 faces
+10034 square feet [1444914.75 square inches]
+13 Displacements
+563 Square Feet [81105.47 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0117 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 70/16384         840/196608   ( 0.4%) 
+brushsides             658/163840       5264/1310720  ( 0.4%) 
+planes                 776/65536       15520/1310720  ( 1.2%) 
+vertexes              1677/65536       20124/786432   ( 2.6%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                84/12288        6048/884736   ( 0.7%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos               13/0            2288/0        ( 0.0%) 
+disp_verts            3549/0           70980/0        ( 0.0%) 
+disp_tris             6272/0           12544/0        ( 0.0%) 
+disp_lmsamples      116959/0          116959/0        ( 0.0%) 
+faces                 1157/65536       64792/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              253/65536       14168/3670016  ( 0.4%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces             1199/65536        2398/131072   ( 1.8%) 
+leafbrushes             77/65536         154/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             6397/512000      25588/2048000  ( 1.2%) 
+edges                 3569/256000      14276/1024000  ( 1.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             82/32768         820/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1422/65536        2844/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2861752/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1404/393216   ( 0.4%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       512/65536       14336/1835008  ( 0.8%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      733837/4194304  (17.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3089
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+10 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 42 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (618093 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 147 texinfos to 83
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+1155 faces
+10034 square feet [1444914.38 square inches]
+11 Displacements
+531 Square Feet [76483.38 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 70/16384         840/196608   ( 0.4%) 
+brushsides             655/163840       5240/1310720  ( 0.4%) 
+planes                 770/65536       15400/1310720  ( 1.2%) 
+vertexes              1670/65536       20040/786432   ( 2.5%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                83/12288        5976/884736   ( 0.7%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            2971/0           59420/0        ( 0.0%) 
+disp_tris             5248/0           10496/0        ( 0.0%) 
+disp_lmsamples       94588/0           94588/0        ( 0.0%) 
+faces                 1155/65536       64680/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              251/65536       14056/3670016  ( 0.4%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces             1199/65536        2398/131072   ( 1.8%) 
+leafbrushes             77/65536         154/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             6381/512000      25524/2048000  ( 1.2%) 
+edges                 3559/256000      14236/1024000  ( 1.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             82/32768         820/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1422/65536        2844/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2842116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1404/393216   ( 0.4%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       512/65536       14336/1835008  ( 0.8%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      618093/4194304  (14.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3085
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+9 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (384213 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 125 texinfos to 69
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+1012 faces
+9612 square feet [1384264.88 square inches]
+7 Displacements
+381 Square Feet [54921.84 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0109 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 65/16384         780/196608   ( 0.4%) 
+brushsides             552/163840       4416/1310720  ( 0.3%) 
+planes                 588/65536       11760/1310720  ( 0.9%) 
+vertexes              1462/65536       17544/786432   ( 2.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                69/12288        4968/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            1815/0           36300/0        ( 0.0%) 
+disp_tris             3200/0            6400/0        ( 0.0%) 
+disp_lmsamples       72545/0           72545/0        ( 0.0%) 
+faces                 1012/65536       56672/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              218/65536       12208/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces             1041/65536        2082/131072   ( 1.6%) 
+leafbrushes             70/65536         140/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5572/512000      22288/2048000  ( 1.1%) 
+edges                 3113/256000      12452/1024000  ( 1.2%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             75/32768         750/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1317/65536        2634/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2526384/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1404/393216   ( 0.4%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       513/65536       14364/1835008  ( 0.8%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      384213/4194304  ( 9.2%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2706
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+8 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 18 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (383661 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 123 texinfos to 72
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+1592 faces
+18635 square feet [2683458.00 square inches]
+7 Displacements
+381 Square Feet [54921.84 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0251 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 64/16384         768/196608   ( 0.4%) 
+brushsides             535/163840       4280/1310720  ( 0.3%) 
+planes                 576/65536       11520/1310720  ( 0.9%) 
+vertexes              2090/65536       25080/786432   ( 3.2%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            1815/0           36300/0        ( 0.0%) 
+disp_tris             3200/0            6400/0        ( 0.0%) 
+disp_lmsamples       72545/0           72545/0        ( 0.0%) 
+faces                 1592/65536       89152/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              211/65536       11816/3670016  ( 0.3%) 
+leaves                  76/65536        2432/2097152  ( 0.1%) 
+leaffaces             1636/65536        3272/131072   ( 2.5%) 
+leafbrushes             71/65536         142/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7831/512000      31324/2048000  ( 1.5%) 
+edges                 4255/256000      17020/1024000  ( 1.7%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             59/32768         590/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1023/65536        2046/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4690356/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1405/393216   ( 0.4%) 
+LDR ambient table       76/65536         304/262144   ( 0.1%) 
+HDR ambient table       76/65536         304/262144   ( 0.1%) 
+LDR leaf ambient       641/65536       17948/1835008  ( 1.0%) 
+HDR leaf ambient        76/65536        2128/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      383661/4194304  ( 9.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3833
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-256.00 944.00 115.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 18 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (384525 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 125 texinfos to 73
+Reduced 8 texdatas to 8 (156 bytes to 156)
+Writing C:\Users\Asdf\Desktop\gm_tatooine\gm_tatooine.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+reading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+LoadPortals: couldn't read c:\users\asdf\desktop\gm_tatooine\gm_tatooine.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+PREP OK
+No vis information, direct lighting only.
+1417 faces
+17372 square feet [2501596.50 square inches]
+7 Displacements
+381 Square Feet [54921.84 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0175 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 68/16384         816/196608   ( 0.4%) 
+brushsides             592/163840       4736/1310720  ( 0.4%) 
+planes                 654/65536       13080/1310720  ( 1.0%) 
+vertexes              1947/65536       23364/786432   ( 3.0%) 
+nodes                  107/65536        3424/2097152  ( 0.2%) 
+texinfos                73/12288        5256/884736   ( 0.6%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                7/0            1232/0        ( 0.0%) 
+disp_verts            1815/0           36300/0        ( 0.0%) 
+disp_tris             3200/0            6400/0        ( 0.0%) 
+disp_lmsamples       72545/0           72545/0        ( 0.0%) 
+faces                 1417/65536       79352/3670016  ( 2.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              213/65536       11928/3670016  ( 0.3%) 
+leaves                 110/65536        3520/2097152  ( 0.2%) 
+leaffaces             1459/65536        2918/131072   ( 2.2%) 
+leafbrushes             92/65536         184/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7195/512000      28780/2048000  ( 1.4%) 
+edges                 3928/256000      15712/1024000  ( 1.5%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             83/32768         830/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1203/65536        2406/131072   ( 1.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4081808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1504/393216   ( 0.4%) 
+LDR ambient table      110/65536         440/262144   ( 0.2%) 
+HDR ambient table      110/65536         440/262144   ( 0.2%) 
+LDR leaf ambient       869/65536       24332/1835008  ( 1.3%) 
+HDR leaf ambient       110/65536        3080/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105675/0        ( 0.0%) 
+physics               [variable]      384525/4194304  ( 9.2%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3547
+Writing c:\users\asdf\desktop\gm_tatooine\gm_tatooine.bsp
+10 seconds elapsed
